@@ -69,6 +69,7 @@ nav a:hover{
 }
 
 footer{
+    margin-top: 40px;
     justify-self: center;
     align-items: center;
     color: #fff;

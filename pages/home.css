@@ -72,6 +72,18 @@
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.8);
+    animation: popup 0.5s ease-in-out;
+}
+/* creating an animation */
+@keyframes popup {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+
+    }
+    
 }
 .popup-content{
     background-color: white;
@@ -114,4 +126,16 @@
 }
 .form-group input:focus{
     border:1px solid rgb(211, 32, 77);
+}
+.form .other{
+    display: flex;
+}
+.icn{
+    border-radius: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    padding: 6px;
+    margin-bottom: 12px;
 }
