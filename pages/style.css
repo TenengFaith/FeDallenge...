@@ -329,11 +329,12 @@ img{
 
 
 @media(max-width:768px){
-    .desktop-navbar nav{
+    .desktop-navbar nav a{
         display: none;
     }
-    .desktop-navbar .hamburger{
+    .container .desktop-navbar .hamburger{
         display: flex;
+        padding-left: 24px;
     }
     .content .upper{
         display: flex;
